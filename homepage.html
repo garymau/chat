@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href='style.css' type="text/css" />
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>CosmoChat</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+               <a class="navbar-brand" href="#" >CosmoChat</a>
+
+            </div>
+            <div>
+              <ul class="nav navbar-nav">
+                <li class="divider-vertical"></li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header">
+      <h1>CosmoChat</h1>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+            <ul class="nav nav-pills nav-stacked">
+              <li class="list-group-item active">Options</li>
+              <li class="list-group-item"><a href="#" >Settings</a></li>
+              <li class="list-group-item"><a href="#" >Profile</a></li>
+            </ul>
+          </br>
+            <ul class="nav nav-pills nav-stacked">
+              <li class="list-group-item active">Friends</li>
+              <li class="list-group-item"> <a href="#">Johnny Christ</a></li>
+              <li class="list-group-item"> <a href="#">Matthew Sanders</a></li>
+              <li class="list-group-item"> <a href="#">Zakhary Vengeance</a></li>
+            </ul>
+          </br>
+            <ul class="list-group">
+              <div class="input-group stylish-input-group">
+                <input type="text" class="form-control"  placeholder="Search" >
+                  <span class="input-group-addon">
+                    <button type="submit" class="glyphicon glyphicon-search">
+                    </button>
+                  </span>
+              </div>
+            </ul>
+        </div>
+        <div class="col-lg-4 form-group">
+          <label for="messages">Your Messages:</label>
+          <style>
+            .fixed-width{
+              max-width: 500px;
+            }
+            .fixed-height{
+              min-height: 370px;
+              max-height: 700px;
+            }
+          </style>
+          <div class="form-group">
+            <textarea class="form-control fixed-width fixed-height" rows="5" id="messages" disabled="True">
+            Johnny: hey you there!!!
+            You:    Whats up man!
+            </textarea>
+            <label for="message">Enter Your Message Here:</label>
+            <input type="text" class="form-control fixed-width" id="message">
+            <button type="button" class="btn-primary active">Send</button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+        </div>
+      </div>
+
+
+    </div>
+
+</body>
+
+</html>
